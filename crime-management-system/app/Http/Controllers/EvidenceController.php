@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Crime;
+use App\Models\Evidence;
 
 class EvidenceController extends Controller
 {
@@ -25,9 +27,6 @@ class EvidenceController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-use App\Models\Crime;
-use App\Models\Evidence;
-
     public function store(Request $request, Crime $crime)
     {
         $request->validate([
