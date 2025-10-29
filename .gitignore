@@ -1,0 +1,80 @@
+/.idea
+/.vscode
+/node_modules
+/vendor
+/public/storage
+/storage/*.key
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+/.phpunit.result.cache
+.phpunit.cache
+/.env
+.env.*
+.DS_Store
+.vagrant
+Homestead.yaml
+Homestead.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+/.sass-cache
+/.cache
+/.parcel-cache
+/.next
+/.nuxt
+.idea
+/.history
+
+# Laravel Mix
+/public/hot
+/public/mix-manifest.json
+
+# IDE helper
+_ide_helper.php
+_ide_helper_models.php
+
+# Composer
+/composer.phar
+composer.lock
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# PHPUnit
+/phpunit.xml
+
+# Build artifacts
+/build/
+
+# JetBrains
+/.idea/
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
